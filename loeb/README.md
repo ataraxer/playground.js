@@ -1,3 +1,3 @@
-# Leob strange loop
+# Loeb strange loop
 
 Based on this [article](https://github.com/quchen/articles/blob/master/loeb-moeb.md).

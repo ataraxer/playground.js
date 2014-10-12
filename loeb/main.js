@@ -4,7 +4,7 @@
 var _ = require('./lazy');
 
 
-var leob = function (x) {
+var loeb = function (x) {
   var go = function () {
     return x.map(function (z) {
       return z(go);
@@ -42,6 +42,6 @@ var fs2 = _.List(
   cnst(5));
 
 
-_.println(leob(fs));
+_.println(loeb(fs));
 
-_.println(leob(fs2));
+_.println(loeb(fs2));
